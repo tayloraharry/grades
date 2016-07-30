@@ -9,16 +9,16 @@ for (var i = 0; i < scores.length; i++) {
   if (scores[i] >= 91) {
     aGrades++;
   }
-  if (scores[i] >= 81 && scores[i] <= 90 ) {
+  else if (scores[i] >= 81) {
     bGrades++;
   }
-  if (scores[i] >= 71 && scores[i] <= 80 ) {
+  else if (scores[i] >= 71) {
     cGrades++;
   }
-  if (scores[i] >= 61 && scores[i] <= 70 ) {
+  else if (scores[i] >= 61) {
     dGrades++;
   }
-  if (scores[i] >= 50 && scores[i] <= 60 ) {
+  else if (scores[i] >= 50) {
     fGrades++;
   }
 }
